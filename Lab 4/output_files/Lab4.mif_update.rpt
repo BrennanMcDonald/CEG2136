@@ -1,0 +1,71 @@
+MIF/HEX Update report for Lab4
+Wed Nov 23 13:37:41 2016
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. MIF/HEX Update Summary
+  3. MIF/HEX Update Processed Files
+  4. MIF/HEX Update Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; MIF/HEX Update Summary                                        ;
++-----------------------+---------------------------------------+
+; MIF/HEX Update Status ; Successful - Wed Nov 23 13:37:41 2016 ;
+; Revision Name         ; Lab4                                  ;
+; Top-level Entity Name ; lab3top                               ;
+; Family                ; Cyclone IV E                          ;
+; Device                ; EP4CE115F29C7                         ;
++-----------------------+---------------------------------------+
+
+
++-----------------------------------------------+
+; MIF/HEX Update Processed Files                ;
++-----------------------------------------------+
+; File Name                                     ;
++-----------------------------------------------+
+; Z:/bmcdo020/Desktop/Lab 4/MemoryContents8.mif ;
++-----------------------------------------------+
+
+
++-------------------------+
+; MIF/HEX Update Messages ;
++-------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit MIF/HEX Update
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Wed Nov 23 13:37:39 2016
+Info: Command: quartus_cdb Lab4 -c Lab4 --update_mif
+Info (39024): Processed the following Memory Initialization File(s)
+    Info (39025): Processed Memory Initialization File Z:/bmcdo020/Desktop/Lab 4/MemoryContents8.mif
+Info: Quartus II 64-Bit MIF/HEX Update was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 542 megabytes
+    Info: Processing ended: Wed Nov 23 13:37:41 2016
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+

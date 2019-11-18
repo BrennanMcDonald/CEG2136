@@ -1,0 +1,134 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 11:39:37  November 09, 2016
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Lab4_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY lab3top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:39:37  NOVEMBER 09, 2016"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_Y2 -to clk
+set_location_assignment PIN_Y23 -to Auto
+set_location_assignment PIN_AB26 -to DIP7
+set_location_assignment PIN_AB27 -to DIP4
+set_location_assignment PIN_M23 -to 1_instruction
+set_location_assignment PIN_E22 -to AC[1]
+set_location_assignment PIN_E21 -to AC[0]
+set_location_assignment PIN_H19 -to AR[7]
+set_location_assignment PIN_J19 -to AR[6]
+set_location_assignment PIN_AD27 -to DIP3
+set_location_assignment PIN_AC27 -to DIP2
+set_location_assignment PIN_AC28 -to DIP1
+set_location_assignment PIN_AB28 -to DIP0
+set_location_assignment PIN_G19 -to AR[0]
+set_location_assignment PIN_F19 -to AR[1]
+set_location_assignment PIN_E19 -to AR[2]
+set_location_assignment PIN_F21 -to AR[3]
+set_location_assignment PIN_F18 -to AR[4]
+set_location_assignment PIN_J15 -to DR[0]
+set_location_assignment PIN_H16 -to DR[1]
+set_location_assignment PIN_J16 -to DR[2]
+set_location_assignment PIN_H17 -to DR[3]
+set_location_assignment PIN_F15 -to DR[4]
+set_location_assignment PIN_G15 -to DR[5]
+set_location_assignment PIN_G16 -to DR[6]
+set_location_assignment PIN_H15 -to DR[7]
+set_location_assignment PIN_M24 -to A1
+set_location_assignment PIN_G18 -to A2
+set_location_assignment PIN_Y22 -to B1
+set_location_assignment PIN_F22 -to B2
+set_location_assignment PIN_W21 -to C1
+set_location_assignment PIN_E17 -to C2
+set_location_assignment PIN_W22 -to D1
+set_location_assignment PIN_L26 -to D2
+set_location_assignment PIN_W25 -to E1
+set_location_assignment PIN_L25 -to E2
+set_location_assignment PIN_J22 -to F2
+set_location_assignment PIN_H22 -to G2
+set_location_assignment PIN_F17 -to Stop
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_location_assignment PIN_E25 -to AC[2]
+set_location_assignment PIN_E24 -to AC[3]
+set_location_assignment PIN_H21 -to AC[4]
+set_location_assignment PIN_G20 -to AC[5]
+set_location_assignment PIN_G22 -to AC[6]
+set_location_assignment PIN_G21 -to AC[7]
+set_location_assignment PIN_E18 -to AR[5]
+set_location_assignment PIN_U23 -to F1
+set_location_assignment PIN_U24 -to G1
+set_location_assignment PIN_AC26 -to DIP5
+set_location_assignment PIN_AD26 -to DIP6
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "Z:/bmcdo020/Desktop/Lab 4/lab3top.vwf"
+set_global_assignment -name MIF_FILE MemoryContents8.mif
+set_global_assignment -name BDF_FILE supportfiles/sevensegcontroller.bdf
+set_global_assignment -name VHDL_FILE supportfiles/seg7.vhd
+set_global_assignment -name BDF_FILE supportfiles/register8bits.bdf
+set_global_assignment -name BDF_FILE supportfiles/register1bit.bdf
+set_global_assignment -name VHDL_FILE supportfiles/ram256x8.vhd
+set_global_assignment -name BDF_FILE supportfiles/partialadder1bit.bdf
+set_global_assignment -name BDF_FILE supportfiles/lab3top.bdf
+set_global_assignment -name BDF_FILE supportfiles/lab3controller.bdf
+set_global_assignment -name BDF_FILE supportfiles/fulladder1bit.bdf
+set_global_assignment -name BDF_FILE supportfiles/counter8bits.bdf
+set_global_assignment -name BDF_FILE supportfiles/counter4bits.bdf
+set_global_assignment -name BDF_FILE supportfiles/counter1bit.bdf
+set_global_assignment -name BDF_FILE supportfiles/controlregister.bdf
+set_global_assignment -name VHDL_FILE supportfiles/busmultiplexer.vhd
+set_global_assignment -name BDF_FILE supportfiles/alu8bits.bdf
+set_global_assignment -name BDF_FILE supportfiles/alu1bit.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE lab3top.vwf
+set_global_assignment -name CDF_FILE output_files/Chain2.cdf
+set_global_assignment -name CDF_FILE output_files/Chain3.cdf
+set_global_assignment -name CDF_FILE supportfiles/Chain4.cdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_M21 -to GG
+set_location_assignment PIN_AA17 -to G11
+set_global_assignment -name MIF_FILE ../../CEGLab4/MemoryContents8.mif
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

@@ -1,0 +1,6 @@
+
+
+Z:/bmcdo020/Desktop/Lab 4/supportfiles/ram256x8.vhd
+
+Nov 16 11AM:35:37>: Megafunction LPM_RAM_DQ is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
